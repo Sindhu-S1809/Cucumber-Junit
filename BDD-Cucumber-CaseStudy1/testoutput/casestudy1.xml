@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.087">
+<testcase classname="Login details" name="Signup into the application" time="32.789">
+<system-out><![CDATA[Given Iam able to navigate to login page....................................passed
+When I click on signup......................................................passed
+And I enter the First name as "AditiSreeD"..................................passed
+And I enter the Last name as "DS"...........................................passed
+And I enter the e-mail as "sindhu_siva09@yahoo.com".........................passed
+And I enter the username as "AditiSreeD"....................................passed
+And I enter the pass as "Friends@1809"......................................passed
+And I enter the Confirm password as "Friends@1809"..........................passed
+And I Click on the Register button..........................................passed
+And I click on the profile photo............................................passed
+And I click on compose message icon.........................................passed
+And I enter the send to as "Sindhu".........................................passed
+And I enter the subject as "Test Mail"......................................passed
+And I click on Send message.................................................passed
+Then I verify the acknowledgement by clicking on outbox.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

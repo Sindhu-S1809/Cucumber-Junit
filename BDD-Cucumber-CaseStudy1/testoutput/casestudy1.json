@@ -1,0 +1,257 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-02T12:11:27.408Z",
+        "line": 11,
+        "name": "Signup into the application",
+        "description": "",
+        "id": "login-details;signup-into-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15408000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Iam able to navigate to login page",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.iam_able_to_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3339000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on signup",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.i_click_on_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the First name as \"AditiSreeD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AditiSreeD\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_first_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter the Last name as \"DS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DS\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_last_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the e-mail as \"sindhu_siva09@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sindhu_siva09@yahoo.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_e_mail_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter the username as \"AditiSreeD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AditiSreeD\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the pass as \"Friends@1809\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Friends@1809\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_pass_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the Confirm password as \"Friends@1809\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Friends@1809\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_confirm_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3059000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Click on the Register button",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.i_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the profile photo",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.i_click_on_the_profile_photo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4667000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on compose message icon",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.i_click_on_compose_message_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the send to as \"Sindhu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sindhu\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_send_to_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the subject as \"Test Mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Mail\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.StepDenitionforSignup.i_enter_the_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2517000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on Send message",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.i_click_on_send_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1332000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify the acknowledgement by clicking on outbox.",
+            "match": {
+              "location": "StepDefinition.StepDenitionforSignup.i_verify_the_acknowledgement_by_clicking_on_outbox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Login details",
+    "description": "This feature includes scenarios that would validate the following feature.\n1) Signup to the application\n1) Verify the login\n3) Send mail from the registered mail id",
+    "id": "login-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SignUp/Signup.feature",
+    "tags": []
+  }
+]
